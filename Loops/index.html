@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Loops</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <h3>Problem 1. Numbers</h3>
+    <input id="inputProblem1" placeholder="Enter an integer" />
+    <button onclick="printNumbersFrom1toN()">Print numbers</button>
+
+    <h3>Problem 2. Numbers not divisible</h3>
+    <input id="inputProblem2" placeholder="Enter an integer" />
+    <button onclick="divisibleBy3And7()">Print numbers</button>
+
+    <h3>Problem 3. Min/Max of sequence</h3>
+    <input id="inputProblem3" placeholder="Enter: 1, 2, 3, ..." />
+    <button onclick="minAndMax()">Print numbers</button>
+
+    <h3>Problem 4. Lexicographically smallest</h3>
+    <button id="alone" onclick="onClickProperty()">Print properties</button>
+
+    <div id="js-console"></div>
+
+    <button id="clear-console" onclick="jsConsole.clearConsole()">Clear Console</button>
+
+    <script src="scripts/js-console.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

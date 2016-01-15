@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Array Methods</title>
+</head>
+<body>
+    <h1>Press F12 to see browser console</h1>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-array-methods" class="anchor" href="#array-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Array Methods</h1>
+
+        <h3><a id="user-content-problem-1-make-person" class="anchor" href="#problem-1-make-person" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem 1. Make person</h3>
+
+        <ul>
+            <li>  Write a function for creating persons.
+
+                <ul>
+                    <li>  Each person must have <strong>firstname</strong>, <strong>lastname</strong>, <strong>age</strong> and <strong>gender</strong> (true is female, false is male)</li>
+                </ul></li>
+            <li>  Generate an array with ten person with different names, ages and genders</li>
+        </ul>
+
+        <h3><a id="user-content-problem-2-people-of-age" class="anchor" href="#problem-2-people-of-age" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem 2. People of age</h3>
+
+        <ul>
+            <li>  Write a function that checks if an array of person contains only people of age (with age 18 or greater)
+
+                <ul>
+                    <li>  Use <strong>only array methods</strong> and no regular loops (for, while)</li>
+                </ul></li>
+        </ul>
+
+        <h3><a id="user-content-problem-3-underage-people" class="anchor" href="#problem-3-underage-people" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem 3. Underage people</h3>
+
+        <ul>
+            <li>  Write a function that prints all underaged persons of an array of person
+
+                <ul>
+                    <li>  Use <strong>Array#filter</strong> and <strong>Array#forEach</strong></li>
+                    <li>  Use <strong>only array methods</strong> and no regular loops (for, while)</li>
+                </ul></li>
+        </ul>
+
+        <h3><a id="user-content-problem-4-average-age-of-females" class="anchor" href="#problem-4-average-age-of-females" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem 4. Average age of females</h3>
+
+        <ul>
+            <li>  Write a function that calculates the average age of all females, extracted from an array of persons
+
+                <ul>
+                    <li>  Use <strong>Array#filter</strong></li>
+                    <li>  Use <strong>only array methods</strong> and no regular loops (for, while)</li>
+                </ul></li>
+        </ul>
+
+        <h3><a id="user-content-problem-5-youngest-person" class="anchor" href="#problem-5-youngest-person" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem 5. Youngest person</h3>
+
+        <ul>
+            <li>  Write a function that finds the youngest male person in a given array of people and prints his full name
+
+                <ul>
+                    <li>  Use <strong>only array methods</strong> and no regular loops (for, while)</li>
+                    <li>  Use <strong>Array#find</strong></li>
+                </ul></li>
+        </ul>
+
+        <h3><a id="user-content-problem-6-group-people" class="anchor" href="#problem-6-group-people" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem 6. Group people</h3>
+
+        <ul>
+            <li>  Write a function that groups an array of persons by first letter of first name and returns the groups as a JavaScript Object
+
+                <ul>
+                    <li>  Use <strong>Array#reduce</strong></li>
+                    <li>  Use <strong>only array methods</strong> and no regular loops (for, while)</li>
+                </ul></li>
+        </ul>
+
+        <p><em>Example:</em></p>
+
+<pre><code>    result = {
+    'a': [{
+    firstname: 'Asen',
+    /* ... */
+    }, {
+    firstname: 'Anakonda',
+    /* ... */
+    }],
+    'j': [{
+    firstname: 'John',
+    /* ... */
+    }]
+    };
+</code></pre>
+    </article>
+
+    <script src="1.MakePerson.js"></script>
+    <script src="2.PeopleOfAge.js"></script>
+    <script src="3.UnderagePeople.js"></script>
+    <script src="4.AverageAgeOfFemales.js"></script>
+    <script src="5.YoungestPerson.js"></script>
+    <script src="6.GroupPeople.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    background: #029900;
+}
+h3 {
+    font-family: Consolas;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+button {
+    cursor: pointer;
+    font-family: Consolas;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    /*background: #6E7F89;
+    /*border: 1px solid #3B4549;*/
+}
+
+input {
+    font-family: Consolas;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 30px;
+
+}
+
+#js-console {
+    margin: 20px;
+    position:fixed;
+    top:50px;
+    right: 50px;
+}
+
+#clear-console {
+    position: fixed;
+    top: 500px;
+    right: 300px;
+}
+
+#alone {
+    margin-left: 30px;
+}
